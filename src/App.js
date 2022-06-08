@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './components/Chart Dashboard/Dashboard';
+import Order from './components/Order';
+import Topbar from './components/Topbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+     <Topbar />    {/* This will be the header compnent of the website */}
+     <Order />     {/* Order is the component which is use to buy/sell the stocks
+                        , means it let the the user to complete an order. As this is 
+                        clone website this is not functionally working. It is located at
+                        left side of website like sidebar */}
+     <Dashboard />  {/* Dashboard is the center part of the website which displays
+                        stocks data and chart using that that data */}
+   </>
   );
 }
 

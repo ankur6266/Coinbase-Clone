@@ -1,0 +1,97 @@
+.order{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    height: max-content;
+    background: rgb(221, 221, 221);
+    color: rgb(245, 245, 245);
+    float: left;
+    width: 18%;
+    font-size: 14px;
+}
+.order h3{
+    color: black;
+}
+
+.line_2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(12, 11, 11);
+    border: 1px solid rgb(32, 32, 32);    
+}
+.usd_img{
+    width: 50px;
+    height: 50px;
+}
+
+select{
+    margin-right: 10px;
+}
+
+.order_getstarted{
+    width: 80%;
+    margin: 40px;
+    padding: 5px;
+    background: rgb(4, 110, 0);
+    color: white;
+    border: none;
+}
+.order_option{
+    width: 100%;
+    opacity: .6;
+}
+.order_option > div{
+    padding: 20px;
+    font-weight: bold;
+    border-top: 2px solid rgb(59, 59, 59);
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+.btns{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn_buy{
+    font-display: row;
+    width: 40%;
+    padding: 1%;
+    background: rgb(0, 181, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+.btn_sell{
+    width: 40%;
+    padding: 1%;
+    background: rgb(30, 35, 65);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+.order_option ul{
+    list-style: none;
+    display: flex;
+    border-bottom: 3px solid rgb(120, 120, 120);
+}
+.order_option ul li{
+    margin: 10px;
+    
+}
+.order_option ul li:hover{
+    border-bottom: 3px solid white;
+}
+.fee-total{
+    border: none;
+    color: rgb(9, 9, 9);
+    font-size: 12px;
+}
+.fee-total-right{
+    float: right;
+}
